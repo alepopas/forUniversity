@@ -4,16 +4,16 @@ var dress = {
     dressColor: "red",
     dressSize: 42,
     firstMethod: function (count) {
-        dress.dressSize = count;
+        this.dressSize = count;
     },
     secondMethod: function () {
-        aLog("Цвет: " + dress.dressColor);
-        aLog("Размер: " + dress.dressSize);
-        aLog("Наличие в магазине: " + dress.dressStoreAvailability);
-        aLog("Брэнд: " + dress.dressBrand);
-        aLog("Длина: " + dress.dressLength);
+        aLog("Цвет: " + this.dressColor);
+        aLog("Размер: " + this.dressSize);
+        aLog("Наличие в магазине: " + this.dressStoreAvailability);
+        aLog("Брэнд: " + this.dressBrand);
+        aLog("Длина: " + this.dressLength);
     },
-    get thirdMethod(){
+    get thirdMethod() {
         return this.dressStoreAvailability;
     }
 };

@@ -28,12 +28,6 @@ function funcTypeof (a) {
     if (typeof(a) === "function") {
         aLog("Это функция!");
     }
-    if (typeof(a) === "Array") {
-        aLog("Это массив!");
-    }
-    if (typeof(a) === "Regular Exp") {
-        aLog("Это регулярное выражение!");
-    }
 }
 
 funcTypeof(aNumber);
