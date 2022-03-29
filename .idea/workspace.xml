@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9c5143d-1cfc-437e-898f-5c73ab072813" name="Changes" comment="" />
+    <list default="true" id="3ee266f2-3ee7-4129-9b21-4e0386144b02" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript_Basics/z2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,8 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="26vh1J1qtEediW8t4RQBowVifYE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="274MJNr1PyJwROm6dJLcPHECY89" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,33 +32,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.z3.js">
-    <configuration name="z1.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-win-x64/node" nameIsGenerated="true" path-to-js-file="z1.js" working-dir="$PROJECT_DIR$/JavaScript_Basics">
-      <method v="2" />
-    </configuration>
-    <configuration name="z3.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-win-x64/node" nameIsGenerated="true" path-to-js-file="z3.js" working-dir="$PROJECT_DIR$/JavaScript_Basics">
+  <component name="RunManager">
+    <configuration name="z2.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-win-x64/node" nameIsGenerated="true" path-to-js-file="z2.js" working-dir="$PROJECT_DIR$/JavaScript_Basics">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.z3.js" />
-        <item itemvalue="Node.js.z1.js" />
+        <item itemvalue="Node.js.z2.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b9c5143d-1cfc-437e-898f-5c73ab072813" name="Changes" comment="" />
-      <created>1648309759902</created>
+      <changelist id="3ee266f2-3ee7-4129-9b21-4e0386144b02" name="Changes" comment="" />
+      <created>1648574832966</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648309759902</updated>
-      <workItem from="1648309789714" duration="817000" />
-      <workItem from="1648573662907" duration="841000" />
+      <updated>1648574832966</updated>
+      <workItem from="1648574835245" duration="213000" />
     </task>
     <servers />
   </component>
