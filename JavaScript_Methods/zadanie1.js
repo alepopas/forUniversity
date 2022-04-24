@@ -23,7 +23,7 @@ Queue = {
 
     set property(command) {
         var aSplit = this.commands[0].id.split("-");
-        var aNewCommand = this.commands.length+2 + "-" + aSplit[1];
+        var aNewCommand = this.commands.length+1 + "-" + aSplit[1];
         var aNewElement = {id: aNewCommand, command: command}
         this.commands = this.commands.concat(aNewElement);
     }
