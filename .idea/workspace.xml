@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09d5cc4e-a2bf-439a-9cfc-1f8faf6868bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript_Basics/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript_Methods/zadanie1.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript_Methods/zadanie1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript_Methods/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="09d5cc4e-a2bf-439a-9cfc-1f8faf6868bd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650793109704</updated>
-      <workItem from="1650793129135" duration="1173000" />
+      <workItem from="1650793129135" duration="1427000" />
     </task>
     <servers />
   </component>
