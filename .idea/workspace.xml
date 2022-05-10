@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09d5cc4e-a2bf-439a-9cfc-1f8faf6868bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_ES6/README.md" afterDir="false" />
+    <list default="true" id="09d5cc4e-a2bf-439a-9cfc-1f8faf6868bd" name="Changes" comment="hw 10.05">
+      <change afterPath="$PROJECT_DIR$/JavaScript_DOM/z1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_DOM/z1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_DOM/z1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +32,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -84,7 +80,8 @@
       <updated>1650793109704</updated>
       <workItem from="1650793129135" duration="11945000" />
       <workItem from="1650806041602" duration="74000" />
-      <workItem from="1650896044871" duration="5140000" />
+      <workItem from="1650896044871" duration="5421000" />
+      <workItem from="1652192585945" duration="8300000" />
     </task>
     <servers />
   </component>
@@ -101,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw 10.05" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 10.05" />
   </component>
 </project>
