@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d5cc4e-a2bf-439a-9cfc-1f8faf6868bd" name="Changes" comment="hw 10.05">
-      <change afterPath="$PROJECT_DIR$/JavaScript_DOM/z1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_DOM/z1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_DOM/z1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_DOM/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_DOM/exs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript_DOM/z1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript_DOM/z1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript_DOM/z1.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -81,7 +85,9 @@
       <workItem from="1650793129135" duration="11945000" />
       <workItem from="1650806041602" duration="74000" />
       <workItem from="1650896044871" duration="5421000" />
-      <workItem from="1652192585945" duration="8300000" />
+      <workItem from="1652192585945" duration="9753000" />
+      <workItem from="1652982586928" duration="2730000" />
+      <workItem from="1653314640811" duration="12375000" />
     </task>
     <servers />
   </component>

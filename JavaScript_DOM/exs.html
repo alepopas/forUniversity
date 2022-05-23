@@ -1,0 +1,168 @@
+<! DOCTYPE HTML>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Задания по DOM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    .block {
+        position: relative;
+    }
+</style>
+<body>
+<div class="block">
+    <h3>ЗАДАНИЕ 1</h3>
+    <form class="row g-3 col-3 p-3">
+    <input type="number" id="first" class="form-control" >
+    <button type="button" id ="btnPlus" class="btn" style="border-color: pink; background: hotpink; min-height: 30px; max-width:30px ; color:white" onclick=plus();>+</button>
+    <button type="button" id ="btnMinus" class="btn" style="border-color: pink; background: hotpink; min-height: 30px; max-width:30px ; color:white" onclick=minus();>-</button>
+    <button type="button" id ="btnMul" class="btn" style="border-color: pink; background: hotpink; min-height: 30px; max-width:30px ; color:white" onclick=mul();>*</button>
+    <button type="button" id ="btnDiv" class="btn" style="border-color: pink; background: hotpink; min-height: 30px; max-width:30px ; color:white" onclick=div()>/</button>
+    <button type="button" id ="btnExp" class="btn" style="border-color: pink; background: hotpink; min-height: 30px; max-width:30px ; color:white" onclick=exp() >^</button>
+    <button type="button" id ="btnPerc" class="btn" style="border-color: pink; background: hotpink; min-height: 30px; max-width:30px ; color:white" onclick=perc()>% </button>
+    <input type="number" id="second" class="form-control">
+    <label for ="out">=</label>
+    <input type="number" id="out" class="form-control">
+    </form>
+</div>
+<div class="block">
+    <h3>ЗАДАНИЕ 2</h3>
+    <form class="p-3">
+    <input type="text" id="proposal" class="form-control" style="max-width: 1500px;" >
+    </form>
+    <form class="p-3">
+    <button type="button" id ="btnPoint" class="btn" style="border-color: hotpink; background: hotpink; min-height: 30px; color:white" onclick=point();>Поставить точку</button>
+    <button type="button" id ="capital_letter" class="btn" style="border-color: hotpink; background: hotpink; min-height: 30px; color:white" onclick=capLetters();>Сделать первую букву заглавной</button>
+    <button type="button" id ="whitespaces" class="btn" style="border-color: hotpink; background: hotpink; min-height: 30px; color:white" onclick=whitespace(); >Убрать лишние пробелы</button>
+    <button type="button" id ="ellipsis" class="btn" style="border-color: hotpink; background: hotpink; min-height: 30px; color:white" onclick=ellipsis(); >Поставить многоточие</button>
+    </form>
+</div>
+<div class="block">
+    <h3>ЗАДАНИЕ 4</h3>
+    <form class="p-3">
+    <input type="text" id="language" class="form-control">
+    </form>
+    <form class="p-3">
+    <button type="button" class="btn" id ="JavaScript" style="border-color: white; background: green; min-height: 20px; min-width:50px ; color:white" onclick=javaScript(); >JavaScript </button>
+    <button type="button" class="btn" id ="C" style="border-color: white; background: green; min-height: 20px; min-width:50px ; color:white" onclick=c(); >C </button>
+    <button type="button" class="btn" id ="PHP" style="border-color: white; background: green; min-height: 20px; min-width:50px ; color:white" onclick=php(); >PHP </button>
+    <button type="button" class="btn" id ="Python" style="border-color: white; background: green; min-height: 20px; min-width:50px ; color:white" onclick=python(); >Python </button>
+    <button type="button" class="btn" id ="SQL" style="border-color: white; background: green; min-height: 20px; min-width:50px ; color:white" onclick=sql(); >SQL </button>
+    <button type="button" class="btn" id ="Assembler" style="border-color: white; background: green; min-height: 20px; min-width:50px ; color:white" onclick=assembler(); >Assembler </button>
+    </form>
+</div>
+<div class="block" id="div_form">
+    <h3>ЗАДАНИЕ 6</h3>
+    <form class="p-3 col-5 d-grid gap-2">
+        <label for ="name">Название опроса</label>
+        <input type="text" id="name" class="form-control">
+        <label for ="question">Новый вопрос</label>
+        <input type="text" id="question" class="form-control">
+        <button type="button" id ="btnQuestion" class="btn" style="border-color: hotpink; background: hotpink; min-height: 30px; color:white" onclick=questions();>+</button>
+    </form>
+</div>
+
+<script>
+    const $ = document;
+
+    function plus(){$.getElementById("out").value=parseInt($.getElementById("first").value)+parseInt($.getElementById("second").value);}
+    function minus(){$.getElementById("out").value=parseInt($.getElementById("first").value)-parseInt($.getElementById("second").value);}
+    function mul(){$.getElementById("out").value=parseInt($.getElementById("first").value)*parseInt($.getElementById("second").value);}
+    function div(){$.getElementById("out").value=parseInt($.getElementById("first").value)/parseInt($.getElementById("second").value);}
+    function exp(){$.getElementById("out").value=Math.pow(parseInt($.getElementById("first").value),parseInt($.getElementById("second").value));}
+    function perc(){$.getElementById("out").value=parseInt($.getElementById("first").value)%parseInt($.getElementById("second").value);}
+
+    function point() {
+        let str = $.getElementById("proposal").value;
+        if(str.charAt(str.length-1)!=="." && str.charAt(str.length-1)!==";" && str.charAt(str.length-1)!=="!" && str.charAt(str.length-1)!=="?" && str.charAt(str.length-1)!==":" && str.charAt(str.length-1)!==","){
+            $.getElementById("proposal").value = str + ".";
+        }
+    }
+
+    function ellipsis() {
+        if($.getElementById("proposal").value.length>100){
+            $.getElementById("proposal").value=document.getElementById("proposal").value.slice(0,100)+"...";
+        }
+    }
+    function whitespace() { $.getElementById("proposal").value = $.getElementById("proposal").value.replace(/\s+/g, ' ').trim();}
+    function capLetters() { $.getElementById("proposal").value = $.getElementById("proposal").value[0].toUpperCase() + $.getElementById("proposal").value.slice(1);}
+
+
+    function javaScript() {
+        if ($.getElementById("JavaScript").style.backgroundColor !== "red"){
+            $.getElementById("JavaScript").style.backgroundColor = "red";
+            $.getElementById("language").value = $.getElementById("language").value+" JavaScript";
+        }
+        else {
+            $.getElementById("JavaScript").style.backgroundColor = "green";
+            $.getElementById("language").value = $.getElementById("language").value.replace(/ JavaScript/gi,'');
+        }
+    }
+
+    function c() {
+        if ($.getElementById("C").style.backgroundColor !=="red"){
+            $.getElementById("C").style.backgroundColor = "red";
+            $.getElementById("language").value= $.getElementById("language").value+" C";
+        }
+        else {
+            $.getElementById("C").style.backgroundColor = "green";
+            $.getElementById("language").value= $.getElementById("language").value.replace(/ C/gi,'');
+        }
+    }
+
+    function php() {
+        if ($.getElementById("PHP").style.backgroundColor !=="red"){
+            $.getElementById("PHP").style.backgroundColor = "red";
+            $.getElementById("language").value= $.getElementById("language").value+" PHP";
+        }
+        else {
+            $.getElementById("PHP").style.backgroundColor = "green";
+            $.getElementById("language").value= $.getElementById("language").value.replace(/ PHP/gi,'');
+        }
+    }
+
+    function python() {
+        if ($.getElementById("Python").style.backgroundColor !=="red"){
+            $.getElementById("Python").style.backgroundColor = "red";
+            $.getElementById("language").value= $.getElementById("language").value+" Python";
+        }
+        else {
+            $.getElementById("Python").style.backgroundColor = "green";
+            $.getElementById("language").value= $.getElementById("language").value.replace(/ Python/gi,'');
+        }
+    }
+
+    function sql() {
+        if ($.getElementById("SQL").style.backgroundColor !=="red"){
+            $.getElementById("SQL").style.backgroundColor = "red";
+            $.getElementById("language").value= $.getElementById("language").value+" SQL";
+        }
+        else {
+            $.getElementById("SQL").style.backgroundColor = "green";
+            $.getElementById("language").value= $.getElementById("language").value.replace(/ SQL/gi,'');
+        }
+    }
+
+    function assembler() {
+        if ($.getElementById("Assembler").style.backgroundColor !=="red"){
+            $.getElementById("Assembler").style.backgroundColor = "red";
+            $.getElementById("language").value= $.getElementById("language").value+" Assembler";
+        }
+        else {
+            $.getElementById("Assembler").style.backgroundColor = "green";
+            $.getElementById("language").value= $.getElementById("language").value.replace(/ Assembler/gi,'');
+        }
+    }
+
+    function questions() {
+        const $newLi = document.createElement('li');
+        $newLi.textContent = $.getElementById("question").value;
+        const $div_form = document.querySelector('#div_form');
+        $div_form.appendChild($newLi);
+    }
+
+</script>
+</body>
+</html>
